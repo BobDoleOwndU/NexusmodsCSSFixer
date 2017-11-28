@@ -1,0 +1,44 @@
+.wrapper {
+	min-width: 640px;
+	width: 50%;
+}
+
+nav#menu .wrap ul li {
+	min-width: 0;
+	overflow: hidden;
+}
+
+form.search input {
+	min-width: 0;
+}
+
+form.search select#searchtype {
+	min-width: 0;
+}
+
+nav#menu .wrap ul li>a {
+	font-size: 11px !important;
+	padding: 20px 5px !important;
+}
+
+nav#menu .wrap ul li ul li a {
+	padding: 0 !important;
+}
+
+.navlabel {
+	font-size: 12px !important;
+}
+
+form.search {
+	padding: 0 5px;
+}
+
+ul.modtabs li {
+	min-width: 0;
+	overflow: hidden;
+}
+
+ul.modtabs li a {
+	font-size: 11px !important;
+	padding: 20px 5px !important;
+}

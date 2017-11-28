@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Nexusmods CSS Fixer",
+  "version": "0.1",
+  "description": "Make the new Nexusmods CSS layout not so big.",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+	"js": ["main.js"],
+    "matches": ["https://www.nexusmods.com/*"]
+  }]
+ 
+}
